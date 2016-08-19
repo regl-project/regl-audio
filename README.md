@@ -4,6 +4,12 @@ Tools for working with audio in [regl](https://github.com/mikolalysenko/regl).  
 * An analyser
 * A microphone connection
 
+Examples:
+
+* [Beat detection](https://mikolalysenko.github.io/regl-audio/beats.html)
+* [Cepstrum](https://mikolalysenko.github.io/regl-audio/cepstrum.html)
+* [Pitch detection](https://mikolalysenko.github.io/regl-audio/pitch.html)
+
 ## Examples
 Here is a simple beat detector:
 
