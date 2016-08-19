@@ -113,8 +113,8 @@ The result is a `regl` scope command with the following properties:
 | `timeTexture` | Current time information in texture |
 | `freqTexture` | Current frequency information in texture |
 | `volume` | Volume of the current signal |
-| `beats` | Array of detected beats sorted from low to high pitch |
-| `pitches` | Array of detected pitches sorted from loudest to softest |
+| `beats` | Array of detected beats sorted from low to high pitch.  Each beat is a scalar in `[0, 1]` |
+| `pitches` | Array of detected pitches sorted from loudest to softest in Hz |
 
 | Uniform | Type | Description |
 |---------|------|-------------|
@@ -122,7 +122,8 @@ The result is a `regl` scope command with the following properties:
 | `time` | `sampler2D` | A sampler storing the PCM time data |
 | `freq` | `sampler2D` | A sampler storing the frequency data |
 | `volume` | `float` | Volume of the signal |
-| `beats` | `float[NUM_PITCHES]` | An array o
+| `beats` | `float[NUM_PITCHES]` | An array of beats |
+| `pitches` | `float[NUM_PITCHES]` | The array of detected pitches |
 
 Note that these context variables are optionally prefixed depending on the `name` parameter.
 
