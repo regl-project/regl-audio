@@ -6,9 +6,9 @@ Tools for working with audio in [regl](https://github.com/mikolalysenko/regl).  
 
 Examples:
 
-* [Beat detection](https://mikolalysenko.github.io/regl-audio/beats.html)
-* [Cepstrum](https://mikolalysenko.github.io/regl-audio/cepstrum.html)
-* [Pitch detection](https://mikolalysenko.github.io/regl-audio/pitch.html)
+* [Beat detection](https://regl-project.github.io/regl-audio/beats.html)
+* [Cepstrum](https://regl-project.github.io/regl-audio/cepstrum.html)
+* [Pitch detection](https://regl-project.github.io/regl-audio/pitch.html)
 
 ## Examples
 Here is a simple beat detector:
